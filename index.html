@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <title>Kiosken Quiz</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><span class="border-circle"><i
+                                    class="fas fa-chevron-left fa-lg"></i></span>Tillbehör</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Kassa</h1>
+        </div>
+    </header>
+
+    <div class="grid-wrapper">
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-item item1">
+                    <div class="padding-wrapper">
+                        <h2>Kunduppgifter</h2>
+                        <p>Hämta dina addressuppgifter genom att fylla i ditt personummer.</p>
+                    </div>
+                    <div class="security-number">
+                        <span class="p-label">Personummer:</span>
+                        <ul>
+                        </ul>
+                        <span class="p-number"><span class="p-number-border">720324</span><span
+                                class="p-hyphen">-</span><span class="p-number-border">1038</span></span>
+                    </div>
+                    <div class="padding-wrapper-2">
+                        <span></span>
+                        <h3>Bo Göran</h3>
+                        <p>Rävgatan 1b</p>
+                        <p>123 45 Boliden</p>
+                    </div>
+                </div>
+                <div class="hero-item item2">
+                    <div class="padding-wrapper">
+                        <h2>Kontaktuppgifter</h2>
+                        <p>Fyll i ditt mobilnummer för att få ett SMS när din order är redo.</p>
+                    </div>
+                    <div class="grey-container">
+                        <span class="phone-label">Mobilnummer:</span>
+                        <div class="number-container">
+                            <ul>
+                                <li><span class="phone-number">0701245678</span></li>
+                                <li><a href="#"><i class="fas fa-pencil-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-item item3">
+                        <div class="cart-grid-container">
+                            <div class="cart-grid-item-1">
+                                <div class="cart-grid-row-1">
+                                    <div class="cart-image">
+                                        <a href="#">
+                                            <img src="img/bosch-pst-700-e-50px-50px.png" alt="Bosch PST 700 E">
+                                        </a>
+                                    </div>
+                                    <div class="product-info-cart">
+                                        <h4>Bosch</h4>
+                                        <p>PST 700 E</p>
+                                    </div>
+                                    <div class="product-info-quantity">
+                                        <a href="#">
+                                            <i class="fas fa-plus-circle"></i>
+                                        </a>
+                                        <input type="text" maxlength="3" value="1"><span class="label-pcs">st</span>
+                                        <a href="#">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </a>
+                                    </div>
+                                    <div class="product-info-total">
+                                        <p>599 kr</p>
+                                    </div>
+                                </div>
+                                <div class="cart-grid-row-1">
+                                    <div class="cart-image">
+                                        <a href="#">
+                                            <img src="img/bosch-10-part-jigsaw-blades.png"
+                                                alt="Bosch 10-delars sticksåg trä/metall">
+                                        </a>
+                                    </div>
+                                    <div class="product-info-cart">
+                                        <h4>Bosch</h4>
+                                        <p>10-delars sticksågsblad trä/metall</p>
+                                    </div>
+                                    <div class="product-info-quantity">
+                                        <a href="#">
+                                            <i class="fas fa-plus-circle"></i>
+                                        </a>
+                                        <input type="text" maxlength="3" value="1"><span class="label-pcs">st</span>
+                                        <a href="#">
+                                            <i class="fas fa-minus-circle"></i>
+                                        </a>
+                                    </div>
+                                    <div class="product-info-total">
+                                        <p>139 kr</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-grid-item-2">
+                                <div class="cart-grid-row-2">
+                                    <div class="delivery-icon">
+                                        <div class="cart-image">
+                                            <i class="fas fa-truck"></i>
+                                        </div>
+                                    </div>
+                                    <div class="round-border-chb">
+                                        <input type="checkbox" checked="checked" name="delivery-option"
+                                            id="delivery-option-1">
+                                        <label for="delivery-option-1"></label>
+                                    </div>
+                                    <div class="product-info-cart">
+                                        <p>Hemleverans</p>
+                                    </div>
+                                    <div class="product-info-total">
+                                        <p>79 kr</p>
+                                    </div>
+                                </div>
+                                <div class="cart-grid-row-2">
+                                    <div class="cart-image">
+                                        <i class="fas fa-hotel"></i>
+                                    </div>
+                                    <div class="round-border-chb">
+                                        <input type="checkbox" name="delivery-option-2" id="delivery-option-2">
+                                        <label for="delivery-option-2"></label>
+                                    </div>
+                                    <div class="product-info-cart">
+                                        <p>Hämta i butik</p>
+                                    </div>
+                                    <div class="product-info-total">
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="cart-grid-row-3">
+                                    <div class="cart-total-price-row-1">
+                                        <div class="cart-total-price-grid-item">
+                                            <h2>Att betala:</h2>
+                                        </div>
+                                        <div class="cart-total-price-grid-item">
+                                            <h2>817 kr</h2>
+                                        </div>
+                                    </div>
+                                    <div class="cart-total-price-row-2">
+                                        <div class="cart-total-price-grid-item">
+                                            <p>Varav moms:</p>
+                                        </div>
+                                        <div class="cart-total-price-grid-item">
+                                            <p>204 kr</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sidebar">
+            <div class="sidebar-info">
+                <h3>Kassan</h3>
+                <p>Använd knappsatsen nedan för att mata in ditt personummer respektive mobilnummer i formuläret till
+                    vänster. Välj sedan ditt önskade leveranssätt och klicka på "Beställ".</p>
+            </div>
+            <div class="keypad-container">
+                <a href="#">
+                    <div class="keypad-item">1</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">2</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">3</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">4</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">5</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">6</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">7</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">8</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">9</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item"><i class="fas fa-backspace"></i></div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item">0</div>
+                </a>
+                <a href="#">
+                    <div class="keypad-item"><i class="fas fa-check"></i></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="order-container">
+                <ul>
+                    <li>Beställ</li>
+                    <li>
+                        <a href="#">
+                            <span class="border-circle"><i class="fas fa-chevron-right fa-lg"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="footer">
+            <ul>
+                <li>
+                    <a href="#"><i class="fas fa-reply"></i> Fortsätt handla</a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
